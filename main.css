@@ -1,0 +1,77 @@
+
+/*
+  STYLESHEET:
+	selector { property:value }
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+header {
+  border-top: 3px solid #bb6222;
+  border-bottom: 1px dotted black;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding-top: 10px;
+  border-top: 2px solid #bb6222;
+  font-size: 80%;
+}
+
+
+.date {
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+.date .month {
+  font-size: 1.4em;
+}
+.date .day {
+  font-size: 2.4em;
+  margin-top: -0.4em;
+}
+.date .year {
+  font-size: 1em;
+  margin-top: -0.8em;
+}
+
+.right-bar {
+  margin-top: 30px;
+  text-align: justify;
+  font-family: "Dosis", Arial, serif;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+@media (max-width:768px) {
+  body {
+    font-size: 10px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .right-bar {
+    text-align: left;
+  }
+}
+
+
+/*
+
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+*/
